@@ -556,6 +556,21 @@ video {
   --tw-contain-style:  ;
 }
 
-.underline{
-  text-decoration-line: underline;
+.bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 27 27 / var(--tw-bg-opacity));
+}
+
+.font-poppins-mm{
+  font-family: Poppins, Padauk;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-secondary{
+  --tw-text-opacity: 1;
+  color: rgb(162 5 245 / var(--tw-text-opacity));
 }

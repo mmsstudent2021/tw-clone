@@ -6,8 +6,12 @@ module.exports = {
       fontFamily : {
         'poppins' : ["Poppins", "sans-serif"],
         'paduak' : ["Padauk", "sans-serif"],
-        'poppins-padauk' : ["Poppins","Padauk", "sans-serif"]
+        'poppins-mm' : ["Poppins","Padauk"]
       },
+      colors : {
+        primary : "#E21B1B",
+        "secondary" : "#A205F5",
+      }
     },
   },
   plugins: [],
