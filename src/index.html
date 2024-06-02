@@ -1,118 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./output.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
+  <body>
+    <div class="relative">
+      <svg
+        class="absolute right-0 -z-10"
+        xmlns="http://www.w3.org/2000/svg"
+        width="600"
+        height="600"
+        fill="none"
+        viewBox="0 0 200 200"
+        version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:svgjs="http://svgjs.dev/svgjs"
+      >
+        <path
+          fill='url("#SvgjsLinearGradient1144")'
+          d="M165.963 134.037c-5.467 5.467-14.332 5.467-19.799 0l-24.137-24.138c-5.468-5.467-5.468-14.331 0-19.799l24.137-24.137c5.467-5.467 14.332-5.467 19.799 0L190.101 90.1c5.467 5.468 5.467 14.332 0 19.799l-24.138 24.138Zm-112.127 0c-5.467 5.467-14.332 5.467-19.8 0L9.9 109.899c-5.468-5.467-5.468-14.331 0-19.799l24.137-24.137c5.467-5.467 14.332-5.467 19.799 0L77.973 90.1c5.468 5.468 5.468 14.332 0 19.799l-24.137 24.138ZM109.9 190.1c-5.468 5.468-14.332 5.468-19.8 0l-24.137-24.137c-5.467-5.467-5.467-14.332 0-19.799l24.138-24.137c5.467-5.468 14.331-5.468 19.799 0l24.137 24.137c5.467 5.467 5.467 14.332 0 19.799L109.9 190.1Zm0-112.127c-5.468 5.468-14.332 5.468-19.8 0L65.963 53.836c-5.467-5.468-5.467-14.332 0-19.8L90.101 9.9c5.467-5.467 14.331-5.467 19.799 0l24.137 24.138c5.467 5.467 5.467 14.331 0 19.799L109.9 77.973Z"
+        ></path>
+        <defs>
+          <linearGradient
+            gradientTransform="rotate(0 0.5 0.5)"
+            id="SvgjsLinearGradient1144"
+          >
+            <stop
+              stop-opacity=" 1"
+              stop-color="rgba(105, 234, 203)"
+              offset="0"
+            ></stop>
+            <stop
+              stop-opacity=" 1"
+              stop-color="rgba(234, 204, 248)"
+              offset="0.48"
+            ></stop>
+            <stop
+              stop-opacity=" 1"
+              stop-color="rgba(85, 68, 213)"
+              offset="1"
+            ></stop>
+          </linearGradient>
+        </defs>
+      </svg>
 
-<body>
+      <nav class="font-poppins text-sm py-5">
+        <!-- flex start  -->
+        <div class="flex justify-between container mx-auto px-10 items-center">
+          <!-- 1st child  -->
+          <div class="flex justify-center items-center">
+            <i class="fa-solid text-4xl fa-hat-cowboy"></i>
+            <h1 class="text-4xl">Randly</h1>
+          </div>
 
-    <div class="">
+          <!-- 2nd child  -->
+          <div>
+            <ul class="flex space-x-5 font-semibold">
+              <li class="">
+                <a href="" class="justify-center items-start">
+                  <span>Home</span>
+                  <i class="fa-solid fa-chevron-down text-slate-600"></i>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span>Pages</span>
+                  <i class="fa-solid fa-chevron-down text-slate-600"></i>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span>Portfolio</span>
+                  <i class="fa-solid fa-chevron-down text-slate-600"></i>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span>Blog</span>
+                  <i class="fa-solid fa-chevron-down text-slate-600"></i>
+                </a>
+              </li>
+              <li class="">
+                <a href="">
+                  <span>Contact</span>
+                  <i class="fa-solid fa-chevron-down text-slate-600"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <nav class="font-poppins text-sm py-5  ">
+          <!-- 3rd child  -->
+          <div>
+            <button class="px-4 text-white py-2 bg-primary rounded-lg">
+              <i class="fa-regular fa-message"></i>
+              Let's Talk
+            </button>
+          </div>
+        </div>
+      </nav>
 
-            <!-- flex start  -->
-            <div class="flex justify-between container mx-auto px-10 items-center">
-        
-                <!-- 1st child  -->
-                <div class="flex justify-center items-center">
-                    <i class="fa-solid text-4xl fa-hat-cowboy"></i>
-                    <h1 class="text-4xl">Randly</h1>
-                </div>
-        
-                <!-- 2nd child  -->
-                <div>
-                    <ul class="flex space-x-5 font-semibold ">
-                        <li class="">
-                            <a href="" class="justify-center items-start ">
-                                <span>Home</span> 
-                                <i class="fa-solid fa-chevron-down text-slate-600"></i>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="">
-                                <span>Pages</span>
-                                <i class="fa-solid fa-chevron-down text-slate-600 "></i>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="">
-                                <span>Portfolio</span>
-                                <i class="fa-solid fa-chevron-down text-slate-600"></i>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="">
-                                <span>Blog</span>
-                                <i class="fa-solid fa-chevron-down text-slate-600"></i>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="">
-                                <span>Contact</span>
-                                <i class="fa-solid fa-chevron-down text-slate-600"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-        
-                <!-- 3rd child  -->
-                <div>
-                    <button class="px-4 text-white py-2 bg-primary rounded-lg">
-                        <i class="fa-regular fa-message"></i>
-                        Let's Talk
-                    </button>
-                </div>
+      <!-- Hero  -->
+      <section class="font-poppins">
+        <div
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        >
+          <!-- 1st child  -->
+          <div
+            class="w-1/2 space-y-5 text-slate-600 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          >
+            <h1 class="font-bold text-3xl">Best business agency</h1>
+            <h1 class="text-5xl font-semibold leading-tight">
+              Expert teams for help your business challenge
+            </h1>
+
+            <div>
+              <button class="bg-primary rounded-lg text-slate-300 py-2 px-3">
+                Get Started
+              </button>
+              <button
+                class="inline-flex gap-x-3 lowercase font-semibold justify-center items-center py-2 px-3"
+              >
+                <i class="fa-solid fa-circle-play text-2xl text-primary"></i>
+                Watch Video
+              </button>
             </div>
-        
-        </nav>
+          </div>
 
-
-        <!-- Hero  -->
-        <section class=" font-poppins ">
-            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-             
-                <!-- 1st child  -->
-            <div class="w-1/2 space-y-5 text-slate-600 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-               <h1 class="font-bold text-3xl">Best business agency</h1>
-               <h1 class="text-5xl font-semibold leading-tight">
-                Expert teams for help your business challenge
-               </h1>
-
-               <div>
-                <button class="bg-primary rounded-lg text-slate-300 py-2 px-3">Get Started</button>
-                <button class="inline-flex gap-x-3 lowercase font-semibold justify-center items-center  py-2 px-3">
-                    <i class="fa-solid fa-circle-play text-2xl text-primary"></i>
-                    Watch Video 
-                    
-
-                </button>
-               </div>
+          <!-- 2nd child  -->
+          <div class="w-1/2 ml-20 lg:max-w-lg">
+            <div class="flex flex-wrap justify-between items-center gap-10">
+              <img
+                class="w-52 rounded-xl"
+                src="../photos/1-hero/hero1.jpg"
+                alt=""
+              />
+              <img
+                class="w-52 rounded-xl"
+                src="../photos/1-hero/hero2.jpg"
+                alt=""
+              />
+              <img
+                class="w-52 mx-auto rounded-xl"
+                src="../photos/1-hero/hero3.jpg"
+                alt=""
+              />
             </div>
-             
-              <!-- 2nd child  -->
-              <div class="w-1/2 ml-20 lg:max-w-lg ">
-                <div class="flex flex-wrap justify-between  items-center  gap-10">
-                    <img class="w-52 rounded-xl " src="../photos/1-hero/hero1.jpg" alt="">
-                    <img class="w-52 rounded-xl " src="../photos/1-hero/hero2.jpg" alt="">
-                    <img class="w-52 mx-auto rounded-xl" src="../photos/1-hero/hero3.jpg" alt="">
-                </div>
-              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="font-poppins-mm container mx-auto">
+        <div class="flex justify-between ">
+
+            <!-- 1st child  -->
+          <div class=" text-center max-w-xs border shadow-xl py-11 px-10 space-y-5 relative">
+            <h1 class="text-2xl font-bold">Branding</h1>
+            <p class="text-lg">
+              But I must explain to you how all this mistaken idea of denouncing
+              pleasure and praising pain
+            </p>
+            <img class="w-24 mx-auto pb-10" src="../photos/pngs/analytics.png" alt="">
+
+            <div class="w-12 h-12 bg-violet-600 absolute left-0 bottom-0">
+
             </div>
-          </section>
+          </div>
 
-    
 
+        </div>
+      </section>
     </div>
-  
-</body>
-
+  </body>
 </html>
